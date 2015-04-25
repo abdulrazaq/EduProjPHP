@@ -2,11 +2,15 @@
 
 
 // Connect to server and select databse.
-mysql_connect('abdulrazaqasrcom.ipagemysql.com', 'abdulrazaq', 'QWERtyui1234@$DB')or die("cannot connect"); 
+//mysql_connect('abdulrazaqasrcom.ipagemysql.com', 'abdulrazaq', 'QWERtyui1234@$DB')or die("cannot connect"); 
 
-mysql_select_db('eduprojdb')or die("cannot select DB");
+//mysql_select_db('eduprojdb')or die("cannot select DB");
 
 
+ mysql_connect(':/cloudsql/arcane-attic-91706:eduproj',
+  'razaq', // username
+  'abadsa91'      // password
+  );
 
 mysql_query("SET NAMES 'UTF8'"); 
 mysql_query('SET CHARACTER SET UTF8'); 
