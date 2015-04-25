@@ -6,7 +6,7 @@
 
 //mysql_select_db('eduprojdb')or die("cannot select DB");
 
-
+/*
  mysql_connect(':/cloudsql/arcane-attic-91706:eduproj',
   'razaq', // username
   'abadsa91'      // password
@@ -123,3 +123,7 @@ else {
 
 }
 ?>
+
+*/
+
+echo "hi";
